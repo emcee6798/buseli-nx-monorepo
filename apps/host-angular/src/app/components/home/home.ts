@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { isDevMode } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -8,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class Home {
 
+  ngOnInit() {
+    console.log('home', isDevMode());
+  }
 }
