@@ -7,16 +7,38 @@
     "apps/*"
   ],
   "devDependencies": {
+    "@nx/js": "21.6.5",
+    "@nx/rsbuild": "21.6.5",
+    "@nx/vue": "21.6.5",
+    "@nx/web": "21.6.5",
+    "@rsbuild/core": "1.1.10",
+    "@rsbuild/plugin-sass": "1.1.2",
+    "@rsbuild/plugin-vue": "1.0.5",
+    "@swc-node/register": "1.9.2",
+    "@swc/core": "1.13.5",
+    "@swc/helpers": "0.5.17",
+    "@types/node": "20.19.9",
+    "jiti": "2.4.2",
     "nx": "21.6.5",
     "prettier": "3.6.2",
-    "typescript": "5.9.3"
+    "sass": "1.93.2",
+    "tslib": "2.3.0",
+    "typescript": "5.9.3",
+    "vue-tsc": "2.2.8"
   },
   "overrides": {
+    "@nx/*": "21.6.5",
+    "sass": "1.93.2",
+    "vue": "3.5.22",
     "typescript": "5.9.3"
   },
   "packageManager": "npm@11.6.2",
   "volta": {
     "node": "25.0.0",
     "npm": "11.6.2"
+  },
+  "dependencies": {
+    "vue": "3.5.22",
+    "vue-router": "4.5.0"
   }
 }
