@@ -19,8 +19,8 @@ header {
 }
 
 nav > a {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 
 @media (min-width: 768px) {
@@ -35,10 +35,10 @@ nav > a {
 
   nav {
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.6rem;
 
-    padding: 1rem 0;
-    margin-top: 1rem;
+    padding: 1.6rem 0;
+    margin-top: 1.6rem;
   }
 }
 </style>

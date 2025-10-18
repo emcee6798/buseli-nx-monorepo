@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/remote-vue"
+    },
+    {
+      "path": "./packages/shared-styles"
     }
   ]
 }

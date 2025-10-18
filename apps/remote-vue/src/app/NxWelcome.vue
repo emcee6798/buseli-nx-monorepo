@@ -262,11 +262,11 @@ svg {
 }
 pre {
   background-color: rgba(55, 65, 81, 1);
-  border-radius: 0.25rem;
+  border-radius: 0.4rem;
   color: rgba(229, 231, 235, 1);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   overflow: auto;
-  padding: 0.5rem 0.75rem;
+  padding: 0.8rem 1.2rem;
 }
 
 .shadow {
@@ -277,7 +277,7 @@ pre {
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .rounded {
-  border-radius: 1.5rem;
+  border-radius: 2.4rem;
 }
 .wrapper {
   width: 100%;
@@ -286,9 +286,9 @@ pre {
   margin-left: auto;
   margin-right: auto;
   max-width: 768px;
-  padding-bottom: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-bottom: 4.8rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
   color: rgba(55, 65, 81, 1);
   width: 100%;
 }
@@ -296,17 +296,17 @@ pre {
   margin-top: 2.5rem;
 }
 #welcome h1 {
-  font-size: 3rem;
+  font-size: 4.8rem;
   font-weight: 500;
   letter-spacing: -0.025em;
   line-height: 1;
 }
 #welcome span {
   display: block;
-  font-size: 1.875rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 2.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 #hero {
   align-items: center;
@@ -320,38 +320,38 @@ pre {
 }
 #hero .text-container {
   color: rgba(255, 255, 255, 1);
-  padding: 3rem 2rem;
+  padding: 4.8rem 3.2rem;
 }
 #hero .text-container h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
   position: relative;
 }
 #hero .text-container h2 svg {
   color: hsla(162, 47%, 50%, 1);
-  height: 2rem;
-  left: -0.25rem;
+  height: 3.2rem;
+  left: -0.4rem;
   position: absolute;
   top: 0;
-  width: 2rem;
+  width: 3.2rem;
 }
 #hero .text-container h2 span {
   margin-left: 2.5rem;
 }
 #hero .text-container a {
   background-color: rgba(255, 255, 255, 1);
-  border-radius: 0.75rem;
+  border-radius: 1.2rem;
   color: rgba(55, 65, 81, 1);
   display: inline-block;
-  margin-top: 1.5rem;
-  padding: 1rem 2rem;
+  margin-top: 2.4rem;
+  padding: 1.6rem 3.2rem;
   text-decoration: inherit;
 }
 #hero .logo-container {
   display: none;
   justify-content: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 }
 #hero .logo-container svg {
   color: rgba(255, 255, 255, 1);
@@ -367,25 +367,25 @@ pre {
 #middle-content #middle-left-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.2rem;
 }
 #learning-materials {
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 3.2rem;
 }
 #learning-materials h2 {
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 2rem;
   letter-spacing: -0.025em;
-  line-height: 1.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  line-height: 2.8rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 .list-item-link {
   align-items: center;
-  border-radius: 0.75rem;
+  border-radius: 1.2rem;
   display: flex;
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
   transition-property:
     background-color,
     border-color,
@@ -403,8 +403,8 @@ pre {
   width: 100%;
 }
 .list-item-link svg:first-child {
-  margin-right: 1rem;
-  height: 1.5rem;
+  margin-right: 1.6rem;
+  height: 2.4rem;
   transition-property:
     background-color,
     border-color,
@@ -419,7 +419,7 @@ pre {
     -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-  width: 1.5rem;
+  width: 2.4rem;
 }
 .list-item-link > span {
   flex-grow: 1;
@@ -442,9 +442,9 @@ pre {
   color: rgba(107, 114, 128, 1);
   display: block;
   flex-grow: 1;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   font-weight: 300;
-  line-height: 1rem;
+  line-height: 1.6rem;
   transition-property:
     background-color,
     border-color,
@@ -460,11 +460,11 @@ pre {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-item-link svg:last-child {
-  height: 1rem;
+  height: 1.6rem;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-  width: 1rem;
+  width: 1.6rem;
 }
 .list-item-link:hover {
   color: rgba(255, 255, 255, 1);
@@ -475,12 +475,12 @@ pre {
   color: rgba(243, 244, 246, 1);
 }
 .list-item-link:hover svg:last-child {
-  transform: translateX(0.25rem);
+  transform: translateX(0.4rem);
 }
 
 .button-pill {
-  padding: 1.5rem 2rem;
-  margin-bottom: 2rem;
+  padding: 2.4rem 3.2rem;
+  margin-bottom: 3.2rem;
   transition-duration: 300ms;
   transition-property:
     background-color,
@@ -514,21 +514,21 @@ pre {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   flex-shrink: 0;
-  width: 3rem;
+  width: 4.8rem;
 }
 .button-pill > span {
   letter-spacing: -0.025em;
   font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 .button-pill span span {
   display: block;
-  font-size: 0.875rem;
+  font-size: 01.4rem;
   font-weight: 300;
-  line-height: 1.25rem;
+  line-height: 2rem;
 }
 .button-pill:hover svg,
 .button-pill:hover {
@@ -541,7 +541,7 @@ pre {
   color: rgba(0, 122, 204, 1);
 }
 #nx-console-jetbrains {
-  margin-top: 2rem;
+  margin-top: 3.2rem;
 }
 #nx-console-jetbrains:hover {
   background-color: rgba(255, 49, 140, 1);
@@ -556,9 +556,9 @@ pre {
   color: rgba(24, 23, 23, 1);
 }
 #nx-cloud {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  padding: 2.5rem 2rem;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  padding: 2.5rem 3.2rem;
 }
 #nx-cloud > div {
   align-items: center;
@@ -567,67 +567,67 @@ pre {
 #nx-cloud > div svg {
   border-radius: 0.375rem;
   flex-shrink: 0;
-  width: 3rem;
+  width: 4.8rem;
 }
 #nx-cloud > div h2 {
-  font-size: 1.125rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: -0.025em;
-  line-height: 1.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  line-height: 2.8rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 #nx-cloud > div h2 span {
   display: block;
-  font-size: 0.875rem;
+  font-size: 01.4rem;
   font-weight: 300;
-  line-height: 1.25rem;
+  line-height: 2rem;
 }
 #nx-cloud p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 1.6rem;
 }
 #nx-cloud pre {
-  margin-top: 1rem;
+  margin-top: 1.6rem;
 }
 #nx-cloud a {
   color: rgba(107, 114, 128, 1);
   display: block;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin-top: 1.5rem;
+  font-size: 01.4rem;
+  line-height: 2rem;
+  margin-top: 2.4rem;
   text-align: right;
 }
 #nx-cloud a:hover {
   text-decoration: underline;
 }
 #commands {
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 3.2rem;
   margin-top: 3.5rem;
 }
 #commands h2 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: -0.025em;
-  line-height: 1.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  line-height: 2.8rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 #commands p {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 300;
-  line-height: 1.5rem;
-  margin-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  line-height: 2.4rem;
+  margin-top: 1.6rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 details {
   align-items: center;
   display: flex;
-  margin-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-top: 1.6rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
   width: 100%;
 }
 details pre > span {
@@ -635,10 +635,10 @@ details pre > span {
   display: block;
 }
 summary {
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   display: flex;
   font-weight: 400;
-  padding: 0.5rem;
+  padding: 0.8rem;
   cursor: pointer;
   transition-property:
     background-color,
@@ -659,24 +659,24 @@ summary:hover {
   background-color: rgba(243, 244, 246, 1);
 }
 summary svg {
-  height: 1.5rem;
-  margin-right: 1rem;
-  width: 1.5rem;
+  height: 2.4rem;
+  margin-right: 1.6rem;
+  width: 2.4rem;
 }
 #love {
   color: rgba(107, 114, 128, 1);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 01.4rem;
+  line-height: 2rem;
   margin-top: 3.5rem;
   opacity: 0.6;
   text-align: center;
 }
 #love svg {
   color: rgba(252, 165, 165, 1);
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 2rem;
+  height: 2rem;
   display: inline;
-  margin-top: -0.25rem;
+  margin-top: -0.4rem;
 }
 @media screen and (min-width: 768px) {
   #hero {

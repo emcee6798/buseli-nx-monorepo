@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  tab-size: 4;
+  scroll-behavior: smooth;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: system-ui;
+}
+
+body {
+  height: 100%;
+  line-height: inherit;
+  font-size: 1.6rem;
+}
+
+pre {
+  font-family: monospace;
+}
