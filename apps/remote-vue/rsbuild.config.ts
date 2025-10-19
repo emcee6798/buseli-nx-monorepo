@@ -1,12 +1,11 @@
+import baseConfig from 'shared/rsbuild.config'
 import { defineConfig } from '@rsbuild/core'
+import merge from 'lodash-es/merge'
 import { pluginModuleFederation } from '@module-federation/rsbuild-plugin';
 import { pluginSass } from '@rsbuild/plugin-sass'
 import { pluginVue } from '@rsbuild/plugin-vue'
 
-export default defineConfig({
-  html: {
-    template: './index.html',
-  },
+const config = merge(baseConfig, {
   plugins: [
     pluginVue(), pluginSass(), pluginModuleFederation({
       name: 'remoteVueApp',
@@ -15,31 +14,14 @@ export default defineConfig({
         './RemoteVue': './src/app/App.vue',
       },
       dts: false,
-      // shared: {
-      //   vue: {
-      //     singleton: true,
-      //     requiredVersion: '^3.0.0',
-      //   },
-      // },
-      // not adding shared modules as there's no plan to add more vue apps currently
     }),
   ],
-  source: {
-    entry: {
-      index: './src/main.ts',
-    },
-    tsconfigPath: './tsconfig.app.json',
+  html: {
+    template: './index.html',
   },
   server: {
     port: 3001,
-    cors: {
-      origin: '*'
-    },
-  },
-  output: {
-    target: 'web',
-    distPath: {
-      root: 'dist',
-    },
   },
 })
+
+export default defineConfig(config)

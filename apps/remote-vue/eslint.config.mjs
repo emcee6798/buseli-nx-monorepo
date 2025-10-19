@@ -1,9 +1,9 @@
 import baseConfig from '../../eslint.config.mjs'
-import nx from 'eslint-plugin-vue'
+import vueEslintPlugin from 'eslint-plugin-vue'
 
 export default [
   ...baseConfig,
-  ...nx.configs['flat/recommended'],
+  ...vueEslintPlugin.configs['flat/recommended'],
   {
     files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx', '**/*.vue'],
     rules: {
