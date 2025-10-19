@@ -8,7 +8,7 @@ export default [
     ignores: ['**/dist'],
   },
   {
-    files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.cts', '**/*.mts', '**/*.js', '**/*.jsx', '**/*.cjs', '**/*.mjs', '**/*.vue'],
     rules: {
       '@nx/enforce-module-boundaries': [
         'error',
@@ -23,11 +23,7 @@ export default [
           ],
         },
       ],
+      'quotes': ['error', 'single'],
     },
-  },
-  {
-    files: ['**/*.ts', '**/*.tsx', '**/*.cts', '**/*.mts', '**/*.js', '**/*.jsx', '**/*.cjs', '**/*.mjs'],
-    // Override or add rules here
-    rules: {},
-  },
+  }
 ]
