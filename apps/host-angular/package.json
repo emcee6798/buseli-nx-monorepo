@@ -9,7 +9,7 @@
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 180,
     "singleQuote": true,
     "overrides": [
       {

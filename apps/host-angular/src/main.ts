@@ -1,8 +1,9 @@
 import { initFederation } from '@angular-architects/module-federation';
-// import manifest from './util/manifest';
+import { isDevMode } from '@angular/core';
 
-// initFederation(manifest)
-initFederation('mf.manifest.json')
+const manifestPublicUrl = isDevMode() ? 'manifest/mf.manifest.dev.json' : 'manifest/mf.manifest.prod.json';
+
+initFederation(manifestPublicUrl)
   .catch(err => console.error(err))
   .then(_ => import('./bootstrap'))
   .catch(err => console.error(err));

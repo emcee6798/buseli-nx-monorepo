@@ -1,0 +1,4 @@
+{
+  "remoteReactApp": "http://localhost:3000/remoteEntry.js",
+  "remoteVueApp": "http://localhost:3001/remoteEntry.js"
+}
